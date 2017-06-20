@@ -8,9 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,300,400,600&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
 
     <script src="javascripts/jquery-3.1.1.min.js"></script>
-    <script src="javascripts/scrollbar.js"></script>
     <script src="javascripts/count.js"></script>
     <script src="javascripts/images.js"></script>
+    <script src="javascripts/popup.js"></script>
 
   </head>
   <body class="scroll">
@@ -29,7 +29,7 @@
     <section class="s2" id="s2">
 
       <section class="text">
-        <p>Скоро:</p>
+        <p>Скоро</p>
       </section>
 
     </section>
@@ -38,7 +38,7 @@
     <section class="s3">
 
       <section class="text">
-        <p>А пока:</p>
+        <p>Сейчас</p>
         <span>Прими участие в розыгрыше фирменной продукции от нас!</span>
       </section>
 
@@ -49,7 +49,19 @@
         </div>
       </section>
 
-      <a class="btn" (href="#")>Оставить заявку</a>
+      <footer>
+        <p>Для участия необходимо оставить свои контакты</p>
+      </footer>
+
+        <div class="btn" onclick="myFunction()" (href="#")>Отправить заявку
+          <div class="popup" id="myPopup">
+            <p>Имя: <br>
+              Телефон: <br>
+              Хочу:
+            </p>
+          </div>
+
+        </div>
 
     </section>
 

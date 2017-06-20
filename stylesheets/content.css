@@ -59,7 +59,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-color: white;
+  background-color: #f0fcff;
   -webkit-box-shadow: 0px -1px 17px 1px rgba(31,27,31,1);
   -moz-box-shadow: 0px -1px 17px 1px rgba(31,27,31,1);
   box-shadow: 0px -1px 17px 1px rgba(31,27,31,1);
@@ -89,7 +89,7 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: white;
+  background-color: #f0fcff;
   -webkit-box-shadow: 0px -1px 17px 1px rgba(31,27,31,0.5);
   -moz-box-shadow: 0px -1px 17px 1px rgba(31,27,31,0.5);
   box-shadow: 0px -1px 17px 1px rgba(31,27,31,0.5);
@@ -102,38 +102,41 @@
   text-align: center;
   font-size: 44px;
   cursor: default;
+  line-height: 66px;
 }
 
 .s3 .text span {
   position: relative;
   text-align: center;
-  font-size: 30px;
+  font-size: 27px;
   cursor: default;
 }
 
 .t {
-  width: 500px;
-  height: 500px;
+  position: relative;
+  top: 88px;
+  width: 400px;
+  height: 287px;
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
   cursor: pointer;
   align-items: center;
+  text-align: center;
 }
 
 .t p {
-  top: 100px;
+  top: 30px;
   position: relative;
 }
 
-.t:active {
-  font-size: 18px;
-  text-align: center;
-  align-items: center;
+.t:hover {
+  transform: scale(1.04);
+  z-index: 99;
 }
 
 .t-sh {
-  width: 500px;
-  height: 343px;
+  width: 400px;
+  height: 243px;
   box-sizing: border-box;
   -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
@@ -141,27 +144,37 @@
   background-image: url(../images/t-shirtcap.png);
   background-size: cover;
   position: relative;
-  top: 80px;
 }
 
-.t-sh:active {
-  width: 470px;
-  height: 300px;
+.t-sh:hover {
+  width: 410px;
+  height: 253px;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 162px;
+  width: 100vw;
+}
+
+footer p {
+  font-size: 14px;
 }
 
 .btn {
   position: absolute;
+  bottom: 69px;
   text-align: center;
-  bottom: 100px;
   width: 254px;
   border-radius: 113px;
-  height: 67px;
+  height: 66px;
   line-height: 65px;
   font-weight: bold;
   font-size: 27px;
   color: white;
   text-decoration: none;
-  background-color: deepskyblue;
+  background-color: dodgerblue;
   box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.7);
   cursor: pointer;
 }
@@ -169,4 +182,34 @@
 .btn:active {
   width: 250px;
   height: 64px;
+}
+
+.popup {
+  position: absolute;
+  bottom: 85px;
+  right: -37px;
+  width: 330px;
+  height: 200px;
+  border-radius: 16px;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.4);
+  background-color: white;
+  visibility: hidden;
+}
+
+.popup p {
+  position: absolute;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 65px;
+  text-align: left;
+  left: 20px;
+}
+
+.btn .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
 }
