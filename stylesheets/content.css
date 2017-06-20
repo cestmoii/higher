@@ -59,18 +59,39 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-color: #f0fcff;
+  background-color: #defaff;
   -webkit-box-shadow: 0px -1px 17px 1px rgba(31,27,31,1);
   -moz-box-shadow: 0px -1px 17px 1px rgba(31,27,31,1);
   box-shadow: 0px -1px 17px 1px rgba(31,27,31,1);
 }
 
-.s2 .text {
+.gif {
+  position: absolute;
+  width: 220px;
+  height: 305px;
+  background-size: cover;
+  background-image: url(../images/g.gif);
+  top: 20px;
+  right: 137px;
+}
+
+.s2 .text1 {
+  position: relative;
+  margin: 60px;
+  text-align: center;
+  font-size: 27px;
+  font-weight: 300;
+  cursor: default;
+  text-align: left;
+}
+
+.s2 .text2 {
   position: relative;
   top: 40px;
   text-align: center;
   font-size: 44px;
   cursor: default;
+  line-height: 66px;
 }
 
 .s3 {
@@ -89,7 +110,7 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #f0fcff;
+  background-color: #defaff;
   -webkit-box-shadow: 0px -1px 17px 1px rgba(31,27,31,0.5);
   -moz-box-shadow: 0px -1px 17px 1px rgba(31,27,31,0.5);
   box-shadow: 0px -1px 17px 1px rgba(31,27,31,0.5);
