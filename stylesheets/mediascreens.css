@@ -22,7 +22,7 @@
   }
 
   .s2 .text1 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .s2 .text2, .s3 .text {
@@ -34,7 +34,7 @@
   }
 
   .poster1, .poster2, .poster3 {
-    width: 100vw;
+    width: 78vw;
   }
 
   .poster2 {
@@ -43,12 +43,12 @@
 
   .poster1 p, .poster2 p, .poster3 p {
     margin-left: 392px;
-    font-size: 16px;
+    font-size: 18px;
     width: 400px;
   }
 
   .s3 .text span, .t, .pil, .skate, .cups {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .s3 {
@@ -81,7 +81,7 @@
   }
 
   footer p {
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .btn {
@@ -112,8 +112,12 @@
     font-size: 34px;
   }
 
+  .poster1, .poster2, .poster3 {
+    width: 83vw;
+  }
+
   .poster1 p, .poster2 p, .poster3 p {
-    margin-left: 386px;
+    margin-left: 378px;
     font-size: 13px;
   }
 
