@@ -50,7 +50,7 @@
   position: absolute;
   width: 100vw;
   margin-top: 100vh;
-  height: 2000px;
+  height: 1660px;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -100,11 +100,80 @@
   line-height: 66px;
 }
 
+.posters {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  margin: 60px;
+  justify-content: space-between;
+}
+
+.poster1, .poster2, .poster3 {
+  width: 45vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.poster1:hover, .poster2:hover, .poster3:hover {
+  background-color: #b5e5ea;
+  cursor: pointer;
+}
+
+.poster1 p, .poster2 p, .poster3 p {
+  position: absolute;
+  margin-top: 18px;
+  margin-left: 350px;
+  font-size: 20px;
+}
+
+.poster2 {
+  position: relative;
+  margin-right: 95px;
+}
+
+.p1 {
+  width: 334px;
+  height: 506px;
+  background-image: url(../images/parachu.svg);
+  background-size: cover;
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.69);
+  -moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.69);
+  box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.69);
+}
+
+.p2 {
+  width: 334px;
+  height: 506px;
+  background-image: url(../images/mara.svg);
+  background-size: cover;
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.69);
+  -moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.69);
+  box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.69);
+}
+
+.poster {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  margin: 60px;
+  justify-content: space-between;
+}
+
+.p3 {
+  width: 334px;
+  height: 426px;
+  background-image: url(../images/ba.svg);
+  background-size: cover;
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.69);
+  -moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.69);
+  box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.69);
+}
+
 .s3 {
   position: absolute;
   width: 100vw;
-  margin-top: calc(2000px + 100vh);
-  height: 2000px;
+  margin-top: calc(1660px + 100vh);
+  height: 1620px;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -115,7 +184,7 @@
   flex-direction: column;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  background-color: #defaff;
+  background-color: #d6f8fc;
   -webkit-box-shadow: 0px -1px 17px 1px rgba(31,27,31,0.5);
   -moz-box-shadow: 0px -1px 17px 1px rgba(31,27,31,0.5);
   box-shadow: 0px -1px 17px 1px rgba(31,27,31,0.5);
