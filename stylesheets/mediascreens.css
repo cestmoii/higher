@@ -1,8 +1,12 @@
-@media screen and (max-width: 840px){
-  .s1 {
-    background-image: url(../images/parachuteSmall-02.svg);
+@media screen and (max-width: 1180px){
+
+  .compact {
+    display: none;
   }
 
+  .full {
+    display: block;
+  }
 
   .s1 .text {
     font-size: 73px;
@@ -18,11 +22,11 @@
   }
 
   .s2 .text1 {
-    font-size: 13px;
+    font-size: 18px;
   }
 
   .s2 .text2, .s3 .text {
-    font-size: 34px;
+    font-size: 37px;
   }
 
   .posters {
@@ -38,17 +42,18 @@
   }
 
   .poster1 p, .poster2 p, .poster3 p {
-    margin-left: 386px;
-    font-size: 13px;
+    margin-left: 392px;
+    font-size: 16px;
+    width: 400px;
   }
 
   .s3 .text span, .t, .pil, .skate, .cups {
-    font-size: 13px;
+    font-size: 18px;
   }
 
   .s3 {
-      margin-top: calc(2160px + 100vh);
-      height: 1800px;
+    margin-top: calc(2160px + 100vh);
+    height: 1800px;
   }
 
   .collection {
@@ -84,6 +89,35 @@
   }
 
   .popup p {
+    font-size: 13px;
+  }
+}
+
+
+@media screen and (max-width: 840px){
+
+  .full {
+    display: none;
+  }
+
+  .compact {
+    display: block;
+  }
+
+  .s2 .text1 {
+    font-size: 13px;
+  }
+
+  .s2 .text2, .s3 .text {
+    font-size: 34px;
+  }
+
+  .poster1 p, .poster2 p, .poster3 p {
+    margin-left: 386px;
+    font-size: 13px;
+  }
+
+  .s3 .text span, .t, .pil, .skate, .cups {
     font-size: 13px;
   }
 }

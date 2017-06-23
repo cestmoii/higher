@@ -422,3 +422,7 @@ footer p {
   width: 155px;
   height: 34px;
 }
+
+.full {
+  display: none;
+}
