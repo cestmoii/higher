@@ -121,6 +121,7 @@
 
 .poster1 p, .poster2 p, .poster3 p {
   position: absolute;
+  width: 227px;
   margin-top: 18px;
   margin-left: 350px;
   font-size: 18px;
