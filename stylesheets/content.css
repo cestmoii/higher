@@ -11,7 +11,7 @@
   position: relative;
   margin-top: 23vh;
   text-align: center;
-  font-size: 120px;
+  font-size: 110px;
   line-height: 169px;
   cursor: default;
   color: white;
@@ -74,8 +74,8 @@
 
 .gif {
   position: relative;
-  width: 220px;
-  height: 305px;
+  width: 210px;
+  height: 273px;
   background-size: cover;
   background-image: url(../images/g.gif);
   left: 74vw;
@@ -85,7 +85,7 @@
   position: relative;
   margin: 60px;
   text-align: center;
-  font-size: 27px;
+  font-size: 25px;
   font-weight: 300;
   cursor: default;
   text-align: left;
@@ -93,8 +93,8 @@
 
 .s2 .text2 {
   position: relative;
-  top: 40px;
-  text-align: center;
+  top: 10px;
+  margin-left: 60px;
   font-size: 44px;
   cursor: default;
   line-height: 66px;
@@ -115,8 +115,6 @@
   flex-direction: column;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-items: center;
   background-color: #defaff;
   -webkit-box-shadow: 0px -1px 17px 1px rgba(31,27,31,0.5);
   -moz-box-shadow: 0px -1px 17px 1px rgba(31,27,31,0.5);
@@ -127,7 +125,7 @@
 .s3 .text {
   position: relative;
   top: 40px;
-  text-align: center;
+  margin-left: 60px;
   font-size: 44px;
   cursor: default;
   line-height: 66px;
@@ -136,8 +134,15 @@
 .s3 .text span {
   position: relative;
   text-align: center;
-  font-size: 27px;
+  font-size: 25px;
+  font-weight: 300;
   cursor: default;
+}
+
+.collection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .t {
@@ -174,14 +179,12 @@
   position: relative;
 }
 
-.t-sh:hover {
-  width: 410px;
-  height: 253px;
-}
-
 footer {
   position: absolute;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
   bottom: 162px;
   width: 100vw;
 }
@@ -192,7 +195,7 @@ footer p {
 
 .btn {
   position: absolute;
-  bottom: 69px;
+  bottom: -100px;
   text-align: center;
   width: 254px;
   border-radius: 113px;
@@ -215,18 +218,15 @@ footer p {
 .popup {
   position: absolute;
   bottom: 82px;
-  right: -38px;
-  width: 330px;
-  height: 200px;
-  border-radius: 16px;
+  right: -43px;
+  width: 343px;
+  height: 240px;
+  border-radius: 30px;
   -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.4);
   -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.4);
   box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.4);
   background-color: white;
   visibility: hidden;
-  text-align: center;
-  align-items: center;
-  align-content: center;
 }
 
 .popup:active, .popup:hover {
@@ -244,4 +244,24 @@ footer p {
   line-height: 30px;
   text-align: center;
   left: 20px;
+}
+
+.send {
+  position: absolute;
+  width: 158px;
+  height: 37px;
+  left: 91.5px;
+  bottom: 9px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  line-height: 35px;
+  border-radius: 23px;
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.7);
+}
+
+.send:active {
+  width: 155px;
+  height: 34px;
 }
