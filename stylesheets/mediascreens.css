@@ -9,50 +9,93 @@
   }
 
   .s1 .text {
+    width: 100%;
     font-size: 73px;
   }
 
   .s2 {
-    height: 2160px;
+    height: 3920px;
+  }
+
+  .gifwrap {
+    position: relative;
+    margin: 40px;
   }
 
   .gif {
-    width: 122px;
-    height: 134px;
+    left: 0;
+    width: 181px;
+    height: 200px;
   }
 
   .s2 .text1 {
-    font-size: 20px;
+    font-size: 23px;
   }
 
   .s2 .text2, .s3 .text {
-    font-size: 37px;
+    width: 538px;
+    font-size: 38px;
+  }
+
+  .s3 .text {
+    line-height: 0;
+  }
+
+  .s3 .text p {
+    line-height: 66px;
+  }
+
+  .s3 .text span {
+    top: 10px;
+    line-height: 38px;
   }
 
   .posters {
+    margin-left: 60px;
+    margin-top: 40px;
     flex-direction: column;
   }
 
   .poster1, .poster2, .poster3 {
-    width: 78vw;
+    width: 83vw;
+    display: block;
+    justify-content: space-between;
   }
 
-  .poster2 {
-    margin-top: 120px
+  .poster1:hover, .poster2:hover, .poster3:hover {
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .p1, .p2 {
+    width: 538px;
+    height: 814px;
+  }
+
+  .p3 {
+    width: 538px;
+    height: 686px;
+  }
+
+  .poster2, .poster {
+    position: relative;
+    top: 110px;
   }
 
   .poster1 p, .poster2 p, .poster3 p {
-    margin-left: 392px;
-    font-size: 18px;
-    width: 400px;
+    position: relative;
+    margin-left: 0;
+    font-size: 23px;
+    width: 538px;
+    top: 20px;
   }
 
   .s3 .text span, .t, .pil, .skate, .cups {
-    font-size: 20px;
+    font-size: 23px;
   }
 
   .s3 {
-    margin-top: calc(2160px + 100vh);
+    margin-top: calc(3920px + 100vh);
     height: 1800px;
   }
 
@@ -89,39 +132,6 @@
   }
 
   .popup p {
-    font-size: 13px;
-  }
-}
-
-
-@media screen and (max-width: 840px){
-
-  .full {
-    display: none;
-  }
-
-  .compact {
-    display: block;
-  }
-
-  .s2 .text1 {
-    font-size: 13px;
-  }
-
-  .s2 .text2, .s3 .text {
-    font-size: 34px;
-  }
-
-  .poster1, .poster2, .poster3 {
-    width: 83vw;
-  }
-
-  .poster1 p, .poster2 p, .poster3 p {
-    margin-left: 378px;
-    font-size: 13px;
-  }
-
-  .s3 .text span, .t, .pil, .skate, .cups {
     font-size: 13px;
   }
 }
