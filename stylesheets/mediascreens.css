@@ -11,6 +11,10 @@
     width: 1180px;
   }
 
+  .s1 {
+    height: 100vh;
+  }
+
   .s1 .text {
     width: 100%;
     font-size: 73px;
