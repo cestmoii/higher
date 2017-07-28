@@ -50,7 +50,7 @@
   }
 
   .posters {
-    margin-left: 0;
+    margin-left: -11px;
     align-items: center;
     margin-top: 40px;
     flex-direction: column;
@@ -58,7 +58,7 @@
 
   .poster {
     flex-direction: column;
-    margin-left: 0;
+    margin-left: -11px;
     position: relative;
     top: 110px;
     align-items: center;
@@ -70,11 +70,11 @@
   }
 
   .poster1, .poster3 {
-    width: 70vw;
+    width: 73vw;
   }
 
   .poster2 {
-    width: 58vw;
+    width: 61vw;
     top: 110px;
   }
 
@@ -143,15 +143,5 @@
 
   .popup p {
     font-size: 13px;
-  }
-}
-
-@media screen and (max-width: 840px){
-  .poster1, .poster3 {
-    width: 82vw;
-  }
-
-  .poster2 {
-    width: 68px;
   }
 }
