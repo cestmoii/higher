@@ -7,9 +7,17 @@
     display: block;
   }
 
+  .s1, .s2, .s3 {
+    width: 1180px;
+  }
+
   .s1 .text {
     width: 100%;
     font-size: 73px;
+  }
+
+  .arrow {
+    width: 1180px;
   }
 
   .s2 {
@@ -49,19 +57,17 @@
     line-height: 38px;
   }
 
-  .posters {
-    margin-left: -11px;
+  .posters, .poster {
+    width: 1180px;
+    margin-left: 0;
     align-items: center;
     margin-top: 40px;
     flex-direction: column;
   }
 
   .poster {
-    flex-direction: column;
-    margin-left: -11px;
     position: relative;
     top: 110px;
-    align-items: center;
   }
 
   .poster1, .poster2, .poster3 {
@@ -70,11 +76,11 @@
   }
 
   .poster1, .poster3 {
-    width: 73vw;
+    width: 83vw;
   }
 
   .poster2 {
-    width: 61vw;
+    width: 68vw;
     top: 110px;
   }
 
@@ -130,6 +136,7 @@
   }
 
   footer {
+    width: 1180px;
     bottom: 180px;
   }
 
