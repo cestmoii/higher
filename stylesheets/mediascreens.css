@@ -71,16 +71,13 @@
   }
 
   .poster1, .poster2, .poster3 {
+    width: auto;
     display: block;
     justify-content: space-between;
   }
 
-  .poster1, .poster3 {
-    width: 83vw;
-  }
-
   .poster2 {
-    width: 68vw;
+    margin-right: 0;
     top: 110px;
   }
 
