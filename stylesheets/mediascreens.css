@@ -12,7 +12,7 @@
   }
 
   .s1 {
-    height: 100vh;
+    height: 130vh;
   }
 
   .s1 .text {
@@ -25,6 +25,7 @@
   }
 
   .s2 {
+    margin-top: 130vh;
     height: 3920px;
   }
 
@@ -112,7 +113,7 @@
   }
 
   .s3 {
-    margin-top: calc(3920px + 100vh);
+    margin-top: calc(3920px + 130vh);
     height: 1800px;
   }
 
