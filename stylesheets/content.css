@@ -11,8 +11,8 @@
   position: relative;
   margin-top: 23vh;
   text-align: center;
-  font-size: 110px;
-  line-height: 169px;
+  font-size: 80px;
+  line-height: 140px;
   cursor: default;
   color: white;
 }
@@ -59,10 +59,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-color: #defaff;
-  -webkit-box-shadow: 0px -1px 17px 1px rgba(31,27,31,1);
-  -moz-box-shadow: 0px -1px 17px 1px rgba(31,27,31,1);
-  box-shadow: 0px -1px 17px 1px rgba(31,27,31,1);
+  background-color: #00BFFF;
 }
 
 .gifwrap {
@@ -85,8 +82,7 @@
   position: relative;
   margin: 60px;
   text-align: center;
-  font-size: 25px;
-  font-weight: 300;
+  font-size: 20px;
   cursor: default;
   text-align: left;
 }
@@ -114,14 +110,9 @@
   justify-content: space-between;
 }
 
-.poster1:hover, .poster2:hover, .poster3:hover {
-  background-color: #b5e5ea;
-  cursor: pointer;
-}
-
 .poster1 p, .poster2 p, .poster3 p {
   position: absolute;
-  width: 227px;
+  width: 417px;
   margin-top: 18px;
   margin-left: 350px;
   font-size: 18px;
@@ -185,7 +176,7 @@
   flex-direction: column;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  background-color: #d6f8fc;
+  background-color: #00BFFF;
   z-index: 1;
 }
 
@@ -244,9 +235,9 @@
   width: 360px;
   height: 176px;
   box-sizing: border-box;
-  -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
   background-image: url(../images/tshirt-01.svg);
   background-size: cover;
   position: relative;
@@ -268,9 +259,9 @@
   width: 360px;
   height: 197px;
   box-sizing: border-box;
-  -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
   background-image: url(../images/pillow-01.svg);
   background-size: cover;
   position: relative;
@@ -301,9 +292,9 @@
   width: 360px;
   height: 246px;
   box-sizing: border-box;
-  -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
   background-image: url(../images/skate-01.svg);
   background-size: cover;
   position: relative;
@@ -325,9 +316,9 @@
   width: 360px;
   height: 246px;
   box-sizing: border-box;
-  -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
   background-image: url(../images/cups-01.svg);
   background-size: cover;
   position: relative;
